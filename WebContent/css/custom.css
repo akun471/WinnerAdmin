@@ -1,0 +1,22 @@
+#nav-tabs{
+	border-bottom: 2px solid #79B0CE;
+	z-index: 990;
+}
+
+#nav-tabs-wrap{
+	padding-top: 2px;
+	background-color: #EAEAEA;
+	position: fixed;
+	z-index: 980;
+	width: 100%;
+}
+
+#breadcrumbs{
+	margin-top: 40px;
+}
+
+@media (max-width: 479px){
+	.navbar-fixed-top+.main-container {
+		padding-top: 45px; 
+	}
+}
